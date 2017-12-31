@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
 
-				//format = {"pretty", "json:target/"}
+				format = {"pretty", "json:target/"},
 		        features = {"features"},
 				glue = {"stepDefination"}
 		    )
